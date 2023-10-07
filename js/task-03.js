@@ -15,7 +15,6 @@ const images = [
 
 
 
-
 const galleryContainer = document.querySelector(".gallery");
 
 const galleryHTML = images.map((image) => `
@@ -25,5 +24,3 @@ const galleryHTML = images.map((image) => `
 `).join("");
 
 galleryContainer.insertAdjacentHTML("beforeend", galleryHTML);
-  
-

@@ -1,4 +1,3 @@
-
 const sizeInput = document.querySelector('#font-size-control');
 
 const textInput = document.querySelector('#text');
