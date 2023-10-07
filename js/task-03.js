@@ -19,7 +19,7 @@ const galleryContainer = document.querySelector(".gallery");
 
 const galleryHTML = images.map((image) => `
   <li class="gallery-item">
-    <img src="${image.url}" alt="${image.alt}">
+    <img src="${image.url}" alt="${image.alt}" width="300" height="200">
   </li>
 `).join("");
 
